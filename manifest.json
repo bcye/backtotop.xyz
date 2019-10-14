@@ -1,0 +1,15 @@
+{
+  "name": "scrollto.top",
+  "version": "1.0",
+  "description": "Scroll back to the beginning of a page with the click of a button",
+  "browser_action": {
+    "default_icon": "icons/1024.png"
+  },
+  "icons": { "1024": "icons/1024.png" },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab"],
+  "manifest_version": 2
+}
